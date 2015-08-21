@@ -3,7 +3,7 @@ You can use this category to use custom fonts with Apple's font text style
 ```
 // Example
 + (UIFont *)navigationBarTitleFont {
-    return [UIFont fontWithDescriptor:[self preferredFontName:@"Avenir-Book" textStyle:UIFontTextStyleBody] size:0];
+    return [UIFont fontWithDescriptor:[UIFontDescriptor fontDescriptorWithName:@"Avenir-Book" textStyle:UIFontTextStyleBody] size:0];
 }
 ```
 
