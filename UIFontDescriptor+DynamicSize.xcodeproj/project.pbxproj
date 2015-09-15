@@ -432,6 +432,7 @@
 				0A9C9E751B869CDA00C7F1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9C9E761B869CDA00C7F1B8 /* Build configuration list for PBXNativeTarget "UIFontDescriptor+DynamicSizeTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +441,7 @@
 				0A9C9E781B869CDA00C7F1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

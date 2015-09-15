@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UIFontDescriptor+DynamicSize"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Use custom fonts with Apple's font text style"
   s.homepage         = "https://github.com/kevinnguy/UIFontDescriptor-DynamicSize"
   s.license          = 'MIT'
