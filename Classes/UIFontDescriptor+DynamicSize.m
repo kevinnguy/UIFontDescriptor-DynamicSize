@@ -14,6 +14,7 @@
 
 NSString *const kUIFontTextStyleSize20 = @"UIFontTextStyleSize20";
 NSString *const kUIFontTextStyleSize19 = @"UIFontTextStyleSize19";
+NSString *const kUIFontTextStyleSize18 = @"UIFontTextStyleSize18";
 NSString *const kUIFontTextStyleSize17 = @"UIFontTextStyleSize17";
 NSString *const kUIFontTextStyleSize16 = @"UIFontTextStyleSize16";
 NSString *const kUIFontTextStyleSize15 = @"UIFontTextStyleSize15";
@@ -21,6 +22,8 @@ NSString *const kUIFontTextStyleSize14 = @"UIFontTextStyleSize14";
 NSString *const kUIFontTextStyleSize13 = @"UIFontTextStyleSize13";
 NSString *const kUIFontTextStyleSize12 = @"UIFontTextStyleSize12";
 NSString *const kUIFontTextStyleSize11 = @"UIFontTextStyleSize11";
+NSString *const kUIFontTextStyleSize10 = @"UIFontTextStyleSize10";
+
 
 + (UIFontDescriptor *)fontDescriptorWithName:(NSString *)fontName textStyle:(NSString *)textStyle {
     static dispatch_once_t onceToken;
@@ -54,6 +57,20 @@ NSString *const kUIFontTextStyleSize11 = @"UIFontTextStyleSize11";
                                   UIContentSizeCategoryMedium: @19,
                                   UIContentSizeCategorySmall: @18,
                                   UIContentSizeCategoryExtraSmall: @17,},
+                          
+                          kUIFontTextStyleSize18: @{
+                                  UIContentSizeCategoryAccessibilityExtraExtraExtraLarge: @25,
+                                  UIContentSizeCategoryAccessibilityExtraExtraLarge: @24,
+                                  UIContentSizeCategoryAccessibilityExtraLarge: @23,
+                                  UIContentSizeCategoryAccessibilityLarge: @23,
+                                  UIContentSizeCategoryAccessibilityMedium: @22,
+                                  UIContentSizeCategoryExtraExtraExtraLarge: @22,
+                                  UIContentSizeCategoryExtraExtraLarge: @21,
+                                  UIContentSizeCategoryExtraLarge: @20,
+                                  UIContentSizeCategoryLarge: @19,
+                                  UIContentSizeCategoryMedium: @18,
+                                  UIContentSizeCategorySmall: @17,
+                                  UIContentSizeCategoryExtraSmall: @16,},
                           
                           kUIFontTextStyleSize17: @{
                                   UIContentSizeCategoryAccessibilityExtraExtraExtraLarge: @24,
@@ -152,6 +169,20 @@ NSString *const kUIFontTextStyleSize11 = @"UIFontTextStyleSize11";
                                   UIContentSizeCategoryMedium: @11,
                                   UIContentSizeCategorySmall: @10,
                                   UIContentSizeCategoryExtraSmall: @10,},
+        
+                          kUIFontTextStyleSize10: @{
+                                  UIContentSizeCategoryAccessibilityExtraExtraExtraLarge: @15,
+                                  UIContentSizeCategoryAccessibilityExtraExtraLarge: @14,
+                                  UIContentSizeCategoryAccessibilityExtraLarge: @13,
+                                  UIContentSizeCategoryAccessibilityLarge: @13,
+                                  UIContentSizeCategoryAccessibilityMedium: @12,
+                                  UIContentSizeCategoryExtraExtraExtraLarge: @12,
+                                  UIContentSizeCategoryExtraExtraLarge: @11,
+                                  UIContentSizeCategoryExtraLarge: @11,
+                                  UIContentSizeCategoryLarge: @10,
+                                  UIContentSizeCategoryMedium: @10,
+                                  UIContentSizeCategorySmall: @9,
+                                  UIContentSizeCategoryExtraSmall: @9,},
                           };
     });
     

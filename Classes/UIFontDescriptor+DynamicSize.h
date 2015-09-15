@@ -12,6 +12,7 @@
 
 extern NSString *const kUIFontTextStyleSize20;
 extern NSString *const kUIFontTextStyleSize19;
+extern NSString *const kUIFontTextStyleSize18;
 extern NSString *const kUIFontTextStyleSize17;
 extern NSString *const kUIFontTextStyleSize16;
 extern NSString *const kUIFontTextStyleSize15;
@@ -19,6 +20,7 @@ extern NSString *const kUIFontTextStyleSize14;
 extern NSString *const kUIFontTextStyleSize13;
 extern NSString *const kUIFontTextStyleSize12;
 extern NSString *const kUIFontTextStyleSize11;
+extern NSString *const kUIFontTextStyleSize10;
 
 + (UIFontDescriptor *)fontDescriptorWithName:(NSString *)fontName textStyle:(NSString *)textStyle;
 
